@@ -1,0 +1,15 @@
+{
+        "children": [
+            {
+                    "children": [{
+                        "children": [{"name": "赵匡义"}], "name": "亲属"},
+                        {"children": [{"name": "王彦升"}], "name": "军校"},
+                        {"children": [{"name": "王审琦"},{"name": "石守信"},{"name": "韩令坤"},{"name": "慕容延钊"}], "name": "将领"},
+                        {"children": [{"name": "李筠"},{"name": "施昌言"}], "name": "节度使"}
+                    ],
+                    "name": "赵匡胤"
+
+            }
+        ],
+        "name": "陈桥兵变"
+    }

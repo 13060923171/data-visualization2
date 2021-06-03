@@ -1,0 +1,31 @@
+ {
+        "children": [
+            {
+                "children": [{
+                    "children": [
+                        {"children":[{"name": "生父-宋徽宗"},{"name": "生母-韦氏"}],"name": "家属"},
+                        {"children":[{"name": "秦桧"},{"name": "秦桧"},{"name": "魏良臣"}],"name": "臣子"},
+                        {"children":[{"name": "朱震"}],"name": "翰林学士"},
+                        {"children":[{"name": "刘锜"},{"name": "张俊"},{"name": "韩世忠"},{"children":[{"name": "儿子-岳云"},{"name": "部下-张宪"}],"name": "岳飞"},{"name": "杨沂中"}],"name": "将士"}
+                    ],
+                    "name": "领导者-宋高宗"
+                }
+                ],
+                "name": "宋"
+            },
+            {
+                "children": [{
+                    "children": [
+                        {"children": [{"name": "完颜昌"}], "name": "大臣"},
+                        {"children": [{"name": "主站派"}], "name": "主战派"},
+                        {"children": [{"name": "完颜昌"}], "name": "主和派"},
+                        {"children": [{"name": "完颜宗望"},{"name": "完颜宗辅"},{"name": "完颜宗翰"}], "name": "将士"}
+                    ],
+                    "name": "领导者-金熙宗"
+                }
+                ],
+                "name": "金"
+            }
+        ],
+        "name": "绍兴和议"
+    }

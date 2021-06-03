@@ -1,0 +1,28 @@
+{
+        "children": [
+            {
+                "children": [{
+                    "children": [
+                        {"children": [{"children": [{"children": [{"name": "杨亮节"}], "name": "国舅"},{"children": [{"name": "赵昰"},{"name": "赵昺"}], "name": "儿子"}], "name": "杨淑妃"},{"children": [{"name": "宋度宗"}],"name": "生父"}], "name": "家属"},
+                        {"children":[{"name": "陆秀夫"},{"name": "张世杰"},{"name": "陈宜中"},{"name": "文天祥"}],"name": "大臣"},
+                        {"children":[{"name": "赵昺"}],"name": "护卫"}
+                    ],
+                    "name": "领导者-宋恭帝"
+                }
+                ],
+                "name": "宋"
+            },
+            {
+                "children": [{
+                    "children": [
+                        {"children": [{"children": [{"name": "王惟义"}], "name": "张弘范"}], "name": "指挥官"},
+                        {"children": [{"name": "李恒"}], "name": "将领"}
+                    ],
+                    "name": "领导者-伯颜"
+                }
+                ],
+                "name": "元"
+            }
+        ],
+        "name": "崖山海战"
+    }

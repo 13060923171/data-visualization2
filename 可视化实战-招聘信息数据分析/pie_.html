@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="a7e0ac8a23ef4414adeea375129e835c" class="chart-container" style="width:1100px; height:500px;"></div>
+    <script>
+        var chart_a7e0ac8a23ef4414adeea375129e835c = echarts.init(
+            document.getElementById('a7e0ac8a23ef4414adeea375129e835c'), '学历占比情况', {renderer: 'canvas'});
+        var option_a7e0ac8a23ef4414adeea375129e835c = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "pie",
+            "name": "\u5b66\u5386\u5360\u6bd4\u60c5\u51b5",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "\u672c\u79d1",
+                    "value": 8248
+                },
+                {
+                    "name": "\u5927\u4e13",
+                    "value": 2589
+                },
+                {
+                    "name": "\u4e0d\u9650",
+                    "value": 1162
+                },
+                {
+                    "name": "\u7855\u58eb ",
+                    "value": 376
+                },
+                {
+                    "name": "\u535a\u58eb",
+                    "value": 19
+                }
+            ],
+            "radius": [
+                "0%",
+                "75%"
+            ],
+            "center": [
+                "25%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u672c\u79d1",
+                "\u5927\u4e13",
+                "\u4e0d\u9650",
+                "\u7855\u58eb ",
+                "\u535a\u58eb"
+            ],
+            "selected": {},
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "color": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple"
+    ],
+    "title": [
+        {
+            "text": "\u571f\u5730\u51fa\u8ba9\u5f62\u5f0f&\u571f\u5730\u6210\u4ea4\u72b6\u6001\u5360\u6bd4",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_a7e0ac8a23ef4414adeea375129e835c.setOption(option_a7e0ac8a23ef4414adeea375129e835c);
+    </script>
+</body>
+</html>

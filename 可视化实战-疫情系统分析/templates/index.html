@@ -1,0 +1,53 @@
+﻿<body bgcolor="#E6E6FA">
+{% extends "layout.html" %}
+
+{% block left %}
+
+<style>
+ul {
+    list-style-type: none;
+    background-color: #000000;
+    height: 800px;
+    padding: 8px 16px;
+
+}
+
+li a {
+    display: block;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+li a.active {
+    background-color: #4CAF50;
+    color: #000000;
+}
+
+li a:hover:not(.active) {
+    background-color: #4CAF50;
+    color: #000000;
+}
+</style>
+<div class="col-sm-3 col-md-2 sidebar">
+    <ul class="nav nav-sidebar">
+        <li><a href="/map1">中国疫情地图</a></li>
+        <li><a href="/map2">世界疫情地图</a></li>
+        <li><a href="/line">中国疫情状况曲线图</a></li>
+        <li><a href="/line2">印度疫情状况曲线图</a></li>
+        <li><a href="/Word">疫情热词词云图</a></li>
+        <li><a href="/rote_learning">机器预测疫情发展曲线图</a></li>
+
+    </ul>
+
+
+
+</div>
+{% endblock %}
+
+{% block right %}
+<!--右边展示-->
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+    <h1 class="page-header">疫情分析-数据可视化</h1>
+
+</div>
+{% endblock %}
+</body>

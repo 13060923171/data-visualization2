@@ -1,0 +1,16 @@
+ {
+        "children": [
+            {
+                "children": [{
+                    "children": [{"name": "朱胜非"}], "name": "宰相"},
+                    {"children": [{"children": [{"name": "康履"},{"name": "蓝珪"},{"name": "曾择"}],"name": "宦官"},{"children": [{"name": "王渊"}],"name": "节度使"}], "name": "霍乱根源"},
+                    {"children": [{"children": [{"name": "张逵"}],"name": "苗傅"}, {"name": "韩世忠"}, {"name": "张俊"}, {"name": "杨沂中"}, {"name": "刘光世"}, {"name": "吴湛"}, {"name": "叶宗谔"}],
+                     "name": "将士"},
+                    {"children": [{"name": "苗傅"},{"name": "王世修"},{"name": "王钧甫"},{"name": "张逵"},{"name": "马柔吉"},{"name": "刘正彦"}], "name": "同僚"}
+                ],
+                "name": "宋高宗"
+
+            }
+        ],
+        "name": "苗刘兵变"
+    }

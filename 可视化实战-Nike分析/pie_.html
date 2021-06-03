@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="bf0d993a80ce457b8d875808fcb3088d" class="chart-container" style="width:1100px; height:500px;"></div>
+    <script>
+        var chart_bf0d993a80ce457b8d875808fcb3088d = echarts.init(
+            document.getElementById('bf0d993a80ce457b8d875808fcb3088d'), 'white', {renderer: 'canvas'});
+        var option_bf0d993a80ce457b8d875808fcb3088d = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "MediumPurple",
+        "Thistle",
+        "Plum",
+        "Violet",
+        "Orchid",
+        "Fuchsia"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "0-500",
+                    "value": "256"
+                },
+                {
+                    "name": "500-1000",
+                    "value": "179"
+                },
+                {
+                    "name": "1000-1500",
+                    "value": "52"
+                },
+                {
+                    "name": "1500-2000",
+                    "value": "9"
+                },
+                {
+                    "name": "2000-2500",
+                    "value": "5"
+                },
+                {
+                    "name": "2500\u4ee5\u4e0a",
+                    "value": "9"
+                }
+            ],
+            "radius": [
+                "0%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": "{a} <br/>{b}: {c} ({d}%)",
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "0-500",
+                "500-1000",
+                "1000-1500",
+                "1500-2000",
+                "2000-2500",
+                "2500\u4ee5\u4e0a"
+            ],
+            "selected": {},
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u4ef7\u683c\u533a\u95f4\u5360\u6bd4\u56fe",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_bf0d993a80ce457b8d875808fcb3088d.setOption(option_bf0d993a80ce457b8d875808fcb3088d);
+    </script>
+</body>
+</html>

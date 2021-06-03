@@ -1,0 +1,27 @@
+ {
+        "children": [
+            {
+                "children": [{
+                    "children": [
+                        {"children":[{"children":[{"children":[{"name": "吕文德"},{"name": "吕文焕"}],"name": "亲信"}],"name": "贾似道"}],"name": "权相"},
+                        {"children":[{"name": "李庭芝"},{"name": "张顺"},{"name": "张贵"},{"children":[{"name": "范天顺"},{"name": "牛富"}],"name": "吕文焕"}],"name": "将士"}
+                    ],
+                    "name": "领导者-宋度宗"
+                }
+                ],
+                "name": "宋"
+            },
+            {
+                "children": [{
+                    "children": [
+                        {"children": [{"name": "史天泽"}], "name": "丞相"},
+                        {"children": [{"name": "郭侃"},{"name": "郝经"},{"name": "刘整"},{"children": [{"children": [{"name": "阿老瓦丁"},{"name": "亦思马因"}], "name": "部下"}], "name": "阿术"},{"name": "史天泽"},{"name": "张弘范"},{"name": "张禧"}], "name": "将领"}
+                    ],
+                    "name": "领导者-忽必烈"
+                }
+                ],
+                "name": "元"
+            }
+        ],
+        "name": "襄阳之战"
+    }

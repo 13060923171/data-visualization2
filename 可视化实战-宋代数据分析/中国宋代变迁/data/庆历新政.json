@@ -1,0 +1,15 @@
+{
+        "children": [
+            {
+                    "children": [{
+                        "children": [{"name": "范仲淹"}, {"name": "富弼"}, {"name": "韩琦"}], "name": "改革主要人物"},
+                        {"children": [{"name": "欧阳修"},{"name": "蔡襄"},{"name": "王素"},{"name": "余靖"}], "name": "改革次要人物"},
+                        {"children": [{"name": "张温"},{"name": "王素"},{"name": "沈邀"},{"name": "大鹏翼"},{"name": "施昌言"}], "name": "转运按察使"},
+                        {"children": [{"name": "施昌言"}], "name": "反对者"}
+                    ],
+                    "name": "宋仁宗"
+
+            }
+        ],
+        "name": "庆历新政"
+    }

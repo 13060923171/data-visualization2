@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/purple-passion.js"></script>
+
+</head>
+<body>
+    <div id="d64e3d3c92694c5092358a737b45b22f" class="chart-container" style="width:1300px; height:600px;"></div>
+    <script>
+        var chart_d64e3d3c92694c5092358a737b45b22f = echarts.init(
+            document.getElementById('d64e3d3c92694c5092358a737b45b22f'), 'purple-passion', {renderer: 'canvas'});
+        var option_d64e3d3c92694c5092358a737b45b22f = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "sankey",
+            "name": "\u6851\u57fa\u56fe",
+            "data": [
+                {
+                    "name": "\u5317\u4eac"
+                },
+                {
+                    "name": "\u4e0a\u6d77"
+                },
+                {
+                    "name": "\u5e7f\u4e1c"
+                },
+                {
+                    "name": "\u91cd\u5e86"
+                },
+                {
+                    "name": "\u6d59\u6c5f"
+                },
+                {
+                    "name": "\u6e56\u5357"
+                },
+                {
+                    "name": "\u6e56\u5317"
+                }
+            ],
+            "links": [
+                {
+                    "source": "\u5317\u4eac",
+                    "target": "\u4e0a\u6d77",
+                    "value": 102.09
+                },
+                {
+                    "source": "\u4e0a\u6d77",
+                    "target": "\u5e7f\u4e1c",
+                    "value": 103.27
+                },
+                {
+                    "source": "\u5e7f\u4e1c",
+                    "target": "\u91cd\u5e86",
+                    "value": 102.81
+                },
+                {
+                    "source": "\u91cd\u5e86",
+                    "target": "\u6d59\u6c5f",
+                    "value": 102.62
+                },
+                {
+                    "source": "\u6d59\u6c5f",
+                    "target": "\u6e56\u5357",
+                    "value": 102.79
+                },
+                {
+                    "source": "\u6e56\u5357",
+                    "target": "\u6e56\u5317",
+                    "value": 103.3
+                }
+            ],
+            "left": "5%",
+            "top": "5%",
+            "right": "20%",
+            "bottom": "5%",
+            "nodeWidth": 20,
+            "nodeGap": 8,
+            "nodeAlign": "justify",
+            "layoutIteration": 32,
+            "orient": "horizontal",
+            "draggable": true,
+            "focusNodeAdjacency": false,
+            "label": {
+                "show": true,
+                "position": "right",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 0.2,
+                "curveness": 0.5,
+                "type": "solid",
+                "color": "source"
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u6851\u57fa\u56fe"
+            ],
+            "selected": {
+                "\u6851\u57fa\u56fe": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u70ed\u95e8\u7701\u4efd-\u6851\u57fa\u56fe",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_d64e3d3c92694c5092358a737b45b22f.setOption(option_d64e3d3c92694c5092358a737b45b22f);
+    </script>
+</body>
+</html>

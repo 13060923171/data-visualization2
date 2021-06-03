@@ -1,0 +1,31 @@
+    {
+        "children": [
+            {
+                "children": [{
+                    "children": [{
+
+                        "children":[{"children":[{"name": "李继宣"}],"name": "曹彬"},{"name": "崔彦进"},{"name": "米信"},{"children":[{"name": "荆嗣"}],"name": "田重进"},{"name": "潘美"}],"name": "节度使"},
+                        {"children":[{"name": "杨业"},{"name": "杜彦圭"}],"name": "观察使"}
+                    ],
+                    "name": "领导者-赵光义"
+                }
+                ],
+                "name": "宋"
+            },
+            {
+                "children": [{
+                    "children": [{
+                        "children": [{"name": "耶律休哥"}, {"name": "韩德让"}, {"name": "耶律蒲宁"}, {"children":[{"name": "张继从"}],"name": "吕行德"}, {"name": "刘知进"}], "name": "指挥官"},
+                        {"children": [{"name": "勤德"}], "name": "预备队队长"},
+                        {"children": [{"name": "大鹏翼"}], "name": "防御使"},
+                        {"children": [{"name": "马赟"}], "name": "刺史"},
+                        {"children": [{"name": "穆超"}], "name": "守将"}
+                    ],
+                    "name": "领导者-耶律斜轸"
+                }
+                ],
+                "name": "辽"
+            }
+        ],
+        "name": "雍熙北伐"
+    }
