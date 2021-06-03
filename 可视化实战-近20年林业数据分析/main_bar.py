@@ -98,7 +98,7 @@ for d in df_2012[1::2]:
     y_data14.append(d)
 sum_y_data.append(y_data14)
 
-df_2014 = pd.read_excel('./data/2014-2015.xlsx').loc[1,['Unnamed: 1','Unnamed: 2','Unnamed: 3','Unnamed: 4','Unnamed: 5','Unnamed: 6']]
+df_2014 = pd.read_excel('./data/2014-2015.xlsx').loc[2,['Unnamed: 1','Unnamed: 2','Unnamed: 3','Unnamed: 4','Unnamed: 5','Unnamed: 6']]
 
 y_data15 = []
 for d in df_2014[::2]:
@@ -146,107 +146,110 @@ from pyecharts.charts import Timeline
 
 time_list = [i for i in range(2000,2020)]
 
-tl = Timeline()
-for i in range(19):
-    c = (
-        Bar(opts.InitOpts(bg_color="#009688"))
-        .add_xaxis(x_data)
-        .add_yaxis("{}".format(time_list[i]),
-                   sum_y_data[i],
-                   label_opts=opts.LabelOpts(
-                       is_show=False
-                   ),
-                   bar_width='15%',
-                   itemstyle_opts={
-                       "normal": {
-                           "color": JsCode(
-                               """new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
-                               offset: 0,
-                               color: '#fccb05'
-                           }, {
-                               offset: 1,
-                               color: '#f5804d'
-                           }])"""
-                           ),
-                           "barBorderRadius": 11,
-                       }
-                   }
-                   )
-        .add_yaxis("{}".format(time_list[i+1]),
-                       sum_y_data[i+1],
+def main_bar():
+    tl = Timeline()
+    for i in range(19):
+        c = (
+            Bar()
+            .add_xaxis(x_data)
+            .add_yaxis("{}".format(time_list[i]),
+                       sum_y_data[i],
                        label_opts=opts.LabelOpts(
                            is_show=False
                        ),
-                        bar_width='15%',
-                   itemstyle_opts={
-                       "normal": {
-                           "color": JsCode(
-                               """new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
-                               offset: 0,
-                               color: '#8bd46e'
-                           }, {
-                               offset: 1,
-                               color: '#09bcb7'
-                           }])"""
-                           ),
-                           "barBorderRadius": 11,
+                       bar_width='15%',
+                       itemstyle_opts={
+                           "normal": {
+                               "color": JsCode(
+                                   """new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                                   offset: 0,
+                                   color: '#1AD66A'
+                               }, {
+                                   offset: 1,
+                                   color: '#01E562'
+                               }])"""
+                               ),
+                               "barBorderRadius": 11,
+                           }
                        }
-                   }
                        )
-        .set_global_opts(
-            legend_opts=opts.LegendOpts(
-                pos_top=12,
-                pos_right=10,
-                textstyle_opts=opts.TextStyleOpts(
-                    color='#fff'
-                )
-            ),
-            tooltip_opts=opts.TooltipOpts(
-                trigger="axis",
-                axis_pointer_type="shadow",
-                textstyle_opts=opts.TextStyleOpts(
-                    color="#fff"
-                )
-            ),
-            xaxis_opts=opts.AxisOpts(
-                type_="category",
-                axisline_opts=opts.AxisLineOpts(
-                    linestyle_opts=opts.LineStyleOpts(
-                        color="white"
+            .add_yaxis("{}".format(time_list[i+1]),
+                           sum_y_data[i+1],
+                           label_opts=opts.LabelOpts(
+                               is_show=False
+                           ),
+                            bar_width='15%',
+                       itemstyle_opts={
+                           "normal": {
+                               "color": JsCode(
+                                   """new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                                   offset: 0,
+                                   color: '#8bd46e'
+                               }, {
+                                   offset: 1,
+                                   color: '#09bcb7'
+                               }])"""
+                               ),
+                               "barBorderRadius": 11,
+                           }
+                       }
+                           )
+            .set_global_opts(
+                legend_opts=opts.LegendOpts(
+                    pos_top=12,
+                    pos_right=10,
+                    textstyle_opts=opts.TextStyleOpts(
+                        color='#fff'
                     )
                 ),
-                axislabel_opts=opts.LabelOpts(
-                )
-            ),
-            yaxis_opts=opts.AxisOpts(
-                type_="value",
-                axistick_opts=opts.AxisTickOpts(
-                    is_show=False
+                tooltip_opts=opts.TooltipOpts(
+                    trigger="axis",
+                    axis_pointer_type="shadow",
+                    textstyle_opts=opts.TextStyleOpts(
+                        color="#fff"
+                    )
                 ),
-                splitline_opts=opts.SplitLineOpts(
-                    is_show=True,
-                    linestyle_opts=opts.LineStyleOpts(
-                        color='rgba(255,255,255,0.3)'
+                xaxis_opts=opts.AxisOpts(
+                    type_="category",
+                    axisline_opts=opts.AxisLineOpts(
+                        linestyle_opts=opts.LineStyleOpts(
+                            color="	White"
+                        )
                     ),
-                ),
-                axisline_opts=opts.AxisLineOpts(
-                    is_show=False,
-                    linestyle_opts=opts.LineStyleOpts(
-                        color="white"
+                    axislabel_opts=opts.LabelOpts(
                     )
                 ),
-                axislabel_opts=opts.LabelOpts()
-            ),
+                yaxis_opts=opts.AxisOpts(
+                    type_="value",
+                    axistick_opts=opts.AxisTickOpts(
+                        is_show=False
+                    ),
+                    splitline_opts=opts.SplitLineOpts(
+                        is_show=True,
+                        linestyle_opts=opts.LineStyleOpts(
+                            color='rgba(255,255,255,0.3)'
+                        ),
+                    ),
+                    axisline_opts=opts.AxisLineOpts(
+                        is_show=False,
+                        linestyle_opts=opts.LineStyleOpts(
+                            color="	White"
+                        )
+                    ),
+                    axislabel_opts=opts.LabelOpts()
+                ),
+            )
+            .set_global_opts(title_opts=opts.TitleOpts(title="{}年-{}年造林面积".format(time_list[i],time_list[i+1]),title_textstyle_opts=opts.TextStyleOpts(
+                        font_size=25, color="#FFFAFA")
+                    ))
+            )
+        tl.add(c, "{}".format(i))
+        tl.add_schema(
+            # 播放速度
+            play_interval=1000,
+            # 是否显示timeline组件
+            is_timeline_show=False,
+            # 是否自动播放
+            is_auto_play=True,
         )
-        .set_global_opts(title_opts=opts.TitleOpts(title="{}年-{}年造林面积".format(time_list[i],time_list[i+1])))
-        )
-    tl.add(c, "{}".format(i))
-    tl.add_schema(
-        # 播放速度
-        play_interval=1000,
-        # 是否显示timeline组件
-        is_timeline_show=False,
-        # 是否自动播放
-        is_auto_play=True,
-    )
-tl.render('./data/造林面积.html')
+    return tl

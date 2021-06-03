@@ -99,7 +99,7 @@ def time_map():
                     pos_left="center",
                     pos_top="top",
                     title_textstyle_opts=opts.TextStyleOpts(
-                        font_size=25, color="rgba(47, 7, 19, 0.9)"
+                        font_size=25, color="#FFFAFA"
                     ), ),
                 tooltip_opts=opts.TooltipOpts(
                     trigger="item", formatter="{b}<br/>{c} (/千公顷)"
@@ -121,16 +121,14 @@ def time_map():
         tl.add(map, "{}年".format(time_list[i]))
         tl.add_schema(
             # 播放速度
-            play_interval=3000,
+            play_interval=1000,
             # 是否显示timeline组件
             is_timeline_show=False,
             # 是否自动播放
             is_auto_play=True,
         )
-    tl.render('./data/全国造林总面积.html')
+    return tl
 
-if __name__ == '__main__':
-    time_map()
 
 
 
