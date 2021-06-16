@@ -15,7 +15,7 @@ KEYWORD = '卫衣'
 options = webdriver.ChromeOptions()
 options.add_experimental_option("prefs",{"profile.mamaged_default_content_settings.images":2})
 options.add_experimental_option('excludeSwitches',['enable-automation'])
-browser = webdriver.Chrome(executable_path="C:\\Users\\96075\\Desktop\\全部资料\\Python\\爬虫\\chromedriver.exe",options=options)
+browser = webdriver.Chrome(executable_path="chromedriver.exe",options=options)
 #设置等待时间
 wait = WebDriverWait(browser,10)
 url ='https://www.taobao.com/'
@@ -85,8 +85,8 @@ def get_products():
 def next_page():
     # 获取总页数的值，并且调用search获取第一页数据
     totalnum = crawl_page()
-    # 初始为1，因为我第一页已经获取过数据了
-    num = 1
+
+    num = 0
     # 首先进来的是第1页，共100页，所以只需要翻页99次
     while num != totalnum - 1:
         print("第%s页:" %str(num+1) )

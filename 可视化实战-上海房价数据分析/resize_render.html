@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/shanghai.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/infographic.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/ResizeSensor.js"></script>
+
+            <link rel="stylesheet"  href="https://assets.pyecharts.org/assets/jquery-ui.css">
+        <style type="text/css">
+    body{
+            background-image: url("wavy-dots.png");
+            background-size: cover;
+        }
+</style>
+</head>
+<body>
+<h1 align="center">上 海 市 房 价 数 据 分 析</h1>
+    <style>.box {  }; </style>
+        
+    <div class="box">
+                <div id="c9de74e571c9427884f53115cf67fb8a" class="chart-container" style="position: absolute; width: 671.020834px; height: 387.020834px; top: 50.9765625px; left: 398.984375px;"></div>
+    <script>
+        var chart_c9de74e571c9427884f53115cf67fb8a = echarts.init(
+            document.getElementById('c9de74e571c9427884f53115cf67fb8a'), 'infographic', {renderer: 'canvas'});
+        var option_c9de74e571c9427884f53115cf67fb8a = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "map",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "\u4e0a\u6d77",
+            "data": [
+                {
+                    "name": "\u5d07\u660e\u533a",
+                    "value": 19754.33
+                },
+                {
+                    "name": "\u91d1\u5c71\u533a",
+                    "value": 21122.67
+                },
+                {
+                    "name": "\u5949\u8d24\u533a",
+                    "value": 29853.15
+                },
+                {
+                    "name": "\u9752\u6d66\u533a",
+                    "value": 38998.86
+                },
+                {
+                    "name": "\u5609\u5b9a\u533a",
+                    "value": 41137.23
+                },
+                {
+                    "name": "\u677e\u6c5f\u533a",
+                    "value": 41705.02
+                },
+                {
+                    "name": "\u5b9d\u5c71\u533a",
+                    "value": 50087.49
+                },
+                {
+                    "name": "\u95f5\u884c\u533a",
+                    "value": 54429.95
+                },
+                {
+                    "name": "\u6d66\u4e1c\u65b0\u533a",
+                    "value": 62804.78
+                },
+                {
+                    "name": "\u666e\u9640\u533a",
+                    "value": 64490.11
+                },
+                {
+                    "name": "\u6768\u6d66\u533a",
+                    "value": 65448.1
+                },
+                {
+                    "name": "\u9759\u5b89\u533a",
+                    "value": 66289.45
+                },
+                {
+                    "name": "\u8679\u53e3\u533a",
+                    "value": 69913.68
+                },
+                {
+                    "name": "\u957f\u5b81\u533a",
+                    "value": 75080.91
+                },
+                {
+                    "name": "\u5f90\u6c47\u533a",
+                    "value": 79156.86
+                },
+                {
+                    "name": "\u9ec4\u6d66\u533a",
+                    "value": 90666.59
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {}
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {
+                "": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 200000,
+        "text": [
+            "High",
+            "Low"
+        ],
+        "textStyle": {
+            "color": "#ddd"
+        },
+        "inRange": {
+            "color": [
+                "lightskyblue",
+                "yellow",
+                "orangered"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "dimension": 0,
+        "orient": "vertical",
+        "left": "10",
+        "top": "center",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    }
+};
+        chart_c9de74e571c9427884f53115cf67fb8a.setOption(option_c9de74e571c9427884f53115cf67fb8a);
+    </script>
+<br/>                <div id="7764d8bd830c4a3aba170ce36e26f253" class="chart-container" style="position: absolute; width: 669.020834px; height: 350.020834px; top: 439.81768798828125px; left: 397.9947814941406px;"></div>
+    <script>
+        var chart_7764d8bd830c4a3aba170ce36e26f253 = echarts.init(
+            document.getElementById('7764d8bd830c4a3aba170ce36e26f253'), 'infographic', {renderer: 'canvas'});
+        var option_7764d8bd830c4a3aba170ce36e26f253 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "effectScatter",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "\u5b9d\u5c71\u533a",
+                    "value": [
+                        121.48,
+                        31.4,
+                        2300
+                    ]
+                },
+                {
+                    "name": "\u5d07\u660e\u533a",
+                    "value": [
+                        121.6,
+                        31.6,
+                        210
+                    ]
+                },
+                {
+                    "name": "\u5949\u8d24\u533a",
+                    "value": [
+                        121.47,
+                        30.92,
+                        1600
+                    ]
+                },
+                {
+                    "name": "\u8679\u53e3\u533a",
+                    "value": [
+                        121.5,
+                        31.27,
+                        8500
+                    ]
+                },
+                {
+                    "name": "\u9ec4\u6d66\u533a",
+                    "value": [
+                        121.48,
+                        31.23,
+                        11200
+                    ]
+                },
+                {
+                    "name": "\u5609\u5b9a\u533a",
+                    "value": [
+                        121.27,
+                        31.38,
+                        2000
+                    ]
+                },
+                {
+                    "name": "\u91d1\u5c71\u533a",
+                    "value": [
+                        121.33,
+                        30.75,
+                        330
+                    ]
+                },
+                {
+                    "name": "\u9759\u5b89\u533a",
+                    "value": [
+                        121.45,
+                        31.23,
+                        2000
+                    ]
+                },
+                {
+                    "name": "\u95f5\u884c\u533a",
+                    "value": [
+                        121.38,
+                        31.12,
+                        6600
+                    ]
+                },
+                {
+                    "name": "\u6d66\u4e1c\u65b0\u533a",
+                    "value": [
+                        121.53,
+                        31.22,
+                        8500
+                    ]
+                },
+                {
+                    "name": "\u666e\u9640\u533a",
+                    "value": [
+                        122.3,
+                        29.95,
+                        2380
+                    ]
+                },
+                {
+                    "name": "\u9752\u6d66\u533a",
+                    "value": [
+                        121.12,
+                        31.15,
+                        5500
+                    ]
+                },
+                {
+                    "name": "\u677e\u6c5f\u533a",
+                    "value": [
+                        121.22,
+                        31.03,
+                        5800
+                    ]
+                },
+                {
+                    "name": "\u5f90\u6c47\u533a",
+                    "value": [
+                        121.43,
+                        31.18,
+                        5900
+                    ]
+                },
+                {
+                    "name": "\u6768\u6d66\u533a",
+                    "value": [
+                        121.52,
+                        31.27,
+                        2450
+                    ]
+                },
+                {
+                    "name": "\u957f\u5b81\u533a",
+                    "value": [
+                        121.42,
+                        31.22,
+                        5800
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "lines",
+            "coordinateSystem": "geo",
+            "zlevel": 3,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "blue",
+                "symbol": "arrow",
+                "symbolSize": 6
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "\u987e\u5510\u8def\u5730\u94c1\u7ad9->\u5d07\u660e\u533a",
+                    "coords": [
+                        [
+                            121.39,
+                            31.1
+                        ],
+                        [
+                            121.6,
+                            31.6
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u987e\u5510\u8def\u5730\u94c1\u7ad9->\u91d1\u5c71\u533a",
+                    "coords": [
+                        [
+                            121.39,
+                            31.1
+                        ],
+                        [
+                            121.33,
+                            30.75
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u987e\u5510\u8def\u5730\u94c1\u7ad9->\u5949\u8d24\u533a",
+                    "coords": [
+                        [
+                            121.39,
+                            31.1
+                        ],
+                        [
+                            121.47,
+                            30.92
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u987e\u5510\u8def\u5730\u94c1\u7ad9->\u9752\u6d66\u533a",
+                    "coords": [
+                        [
+                            121.39,
+                            31.1
+                        ],
+                        [
+                            121.12,
+                            31.15
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u987e\u5510\u8def\u5730\u94c1\u7ad9->\u5609\u5b9a\u533a",
+                    "coords": [
+                        [
+                            121.39,
+                            31.1
+                        ],
+                        [
+                            121.27,
+                            31.38
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u987e\u5510\u8def\u5730\u94c1\u7ad9->\u677e\u6c5f\u533a",
+                    "coords": [
+                        [
+                            121.39,
+                            31.1
+                        ],
+                        [
+                            121.22,
+                            31.03
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u987e\u5510\u8def\u5730\u94c1\u7ad9->\u5b9d\u5c71\u533a",
+                    "coords": [
+                        [
+                            121.39,
+                            31.1
+                        ],
+                        [
+                            121.48,
+                            31.4
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u987e\u5510\u8def\u5730\u94c1\u7ad9->\u95f5\u884c\u533a",
+                    "coords": [
+                        [
+                            121.39,
+                            31.1
+                        ],
+                        [
+                            121.38,
+                            31.12
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u987e\u5510\u8def\u5730\u94c1\u7ad9->\u6d66\u4e1c\u65b0\u533a",
+                    "coords": [
+                        [
+                            121.39,
+                            31.1
+                        ],
+                        [
+                            121.53,
+                            31.22
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u987e\u5510\u8def\u5730\u94c1\u7ad9->\u6768\u6d66\u533a",
+                    "coords": [
+                        [
+                            121.39,
+                            31.1
+                        ],
+                        [
+                            121.52,
+                            31.27
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u987e\u5510\u8def\u5730\u94c1\u7ad9->\u9759\u5b89\u533a",
+                    "coords": [
+                        [
+                            121.39,
+                            31.1
+                        ],
+                        [
+                            121.45,
+                            31.23
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u987e\u5510\u8def\u5730\u94c1\u7ad9->\u8679\u53e3\u533a",
+                    "coords": [
+                        [
+                            121.39,
+                            31.1
+                        ],
+                        [
+                            121.5,
+                            31.27
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u987e\u5510\u8def\u5730\u94c1\u7ad9->\u957f\u5b81\u533a",
+                    "coords": [
+                        [
+                            121.39,
+                            31.1
+                        ],
+                        [
+                            121.42,
+                            31.22
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u987e\u5510\u8def\u5730\u94c1\u7ad9->\u5f90\u6c47\u533a",
+                    "coords": [
+                        [
+                            121.39,
+                            31.1
+                        ],
+                        [
+                            121.43,
+                            31.18
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u987e\u5510\u8def\u5730\u94c1\u7ad9->\u9ec4\u6d66\u533a",
+                    "coords": [
+                        [
+                            121.39,
+                            31.1
+                        ],
+                        [
+                            121.48,
+                            31.23
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.2,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "",
+                ""
+            ],
+            "selected": {
+                "": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u4e0a\u6d77\u5404\u533a-\u6700\u9ad8\u623f\u4ef7",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "geo": {
+        "map": "\u4e0a\u6d77",
+        "roam": true,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "emphasis": {}
+    }
+};
+        chart_7764d8bd830c4a3aba170ce36e26f253.setOption(option_7764d8bd830c4a3aba170ce36e26f253);
+    </script>
+<br/>                <div id="1166bf39cb8a4a3ebd385731b068d3aa" class="chart-container" style="position: absolute; width: 541.020834px; height: 381.020834px; top: 52.643226623535156px; left: 1021.9921875px;"></div>
+    <script>
+        var chart_1166bf39cb8a4a3ebd385731b068d3aa = echarts.init(
+            document.getElementById('1166bf39cb8a4a3ebd385731b068d3aa'), 'infographic', {renderer: 'canvas'});
+        var option_1166bf39cb8a4a3ebd385731b068d3aa = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "scatter",
+            "symbolSize": 20,
+            "data": [
+                [
+                    118.5,
+                    1030.0
+                ],
+                [
+                    51.54,
+                    140.0
+                ],
+                [
+                    50.4,
+                    660.0
+                ],
+                [
+                    127.71,
+                    1275.0
+                ],
+                [
+                    93.67,
+                    780.0
+                ],
+                [
+                    138.15,
+                    1180.0
+                ],
+                [
+                    156.73,
+                    1768.0
+                ],
+                [
+                    51.24,
+                    570.0
+                ],
+                [
+                    96.55,
+                    860.0
+                ],
+                [
+                    35.58,
+                    600.0
+                ],
+                [
+                    134.6,
+                    500.0
+                ],
+                [
+                    115.78,
+                    1400.0
+                ],
+                [
+                    59.9,
+                    460.0
+                ],
+                [
+                    51.91,
+                    450.0
+                ],
+                [
+                    135.04,
+                    1260.0
+                ],
+                [
+                    46.8,
+                    375.0
+                ],
+                [
+                    41.34,
+                    370.0
+                ],
+                [
+                    118.42,
+                    1380.0
+                ],
+                [
+                    110.99,
+                    730.0
+                ],
+                [
+                    61.51,
+                    600.0
+                ],
+                [
+                    54.95,
+                    462.0
+                ],
+                [
+                    118.19,
+                    1300.0
+                ],
+                [
+                    130.95,
+                    1350.0
+                ],
+                [
+                    63.95,
+                    600.0
+                ],
+                [
+                    116.13,
+                    850.0
+                ],
+                [
+                    117.15,
+                    1200.0
+                ],
+                [
+                    35.23,
+                    300.0
+                ],
+                [
+                    143.33,
+                    1150.0
+                ],
+                [
+                    98.16,
+                    1196.0
+                ],
+                [
+                    105.12,
+                    780.0
+                ],
+                [
+                    78.35,
+                    220.0
+                ],
+                [
+                    47.14,
+                    700.0
+                ],
+                [
+                    170.4,
+                    1380.0
+                ],
+                [
+                    159.16,
+                    2000.0
+                ],
+                [
+                    41.78,
+                    398.0
+                ],
+                [
+                    94.85,
+                    850.0
+                ],
+                [
+                    89.04,
+                    690.0
+                ],
+                [
+                    68.89,
+                    395.0
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {
+                "": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "type": "value",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                118.5,
+                51.54,
+                50.4,
+                127.71,
+                93.67,
+                138.15,
+                156.73,
+                51.24,
+                96.55,
+                35.58,
+                134.6,
+                115.78,
+                59.9,
+                51.91,
+                135.04,
+                46.8,
+                41.34,
+                118.42,
+                110.99,
+                61.51,
+                54.95,
+                118.19,
+                130.95,
+                63.95,
+                116.13,
+                117.15,
+                35.23,
+                143.33,
+                98.16,
+                105.12,
+                78.35,
+                47.14,
+                170.4,
+                159.16,
+                41.78,
+                94.85,
+                89.04,
+                68.89
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisTick": {
+                "show": true,
+                "alignWithLabel": false,
+                "inside": false
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u5404\u5c0f\u533a\u9762\u79ef\u4e0e\u4ef7\u683c\u4e4b\u6bd4",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 2000,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "dimension": 1,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    }
+};
+        chart_1166bf39cb8a4a3ebd385731b068d3aa.setOption(option_1166bf39cb8a4a3ebd385731b068d3aa);
+    </script>
+<br/>                <div id="94f7ab4280d04a4c940579a3bb782563" class="chart-container" style="position: absolute; width: 1580.020834px; height: 500.020834px; top: 842.4609375px; left: -7.0052080154418945px;"></div>
+    <script>
+        var chart_94f7ab4280d04a4c940579a3bb782563 = echarts.init(
+            document.getElementById('94f7ab4280d04a4c940579a3bb782563'), 'infographic', {renderer: 'canvas'});
+        var option_94f7ab4280d04a4c940579a3bb782563 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "boxplot",
+            "data": [
+                [
+                    11875,
+                    43929.0,
+                    49458.5,
+                    55446.5,
+                    86975
+                ],
+                [
+                    13243,
+                    16446.25,
+                    19711.0,
+                    23365.75,
+                    25789
+                ],
+                [
+                    8996,
+                    24285,
+                    28773,
+                    34280,
+                    74861
+                ],
+                [
+                    24141,
+                    59696.5,
+                    67381,
+                    77753.5,
+                    189439
+                ],
+                [
+                    24356,
+                    77065.5,
+                    86892.0,
+                    100030.25,
+                    194329
+                ],
+                [
+                    12475,
+                    34904.25,
+                    42666.0,
+                    47921.5,
+                    78635
+                ],
+                [
+                    13024,
+                    17937,
+                    20514,
+                    25666,
+                    30295
+                ],
+                [
+                    24822,
+                    55260.25,
+                    63942.0,
+                    74217.25,
+                    168634
+                ],
+                [
+                    19098,
+                    46552.0,
+                    54020.5,
+                    61632.75,
+                    102601
+                ],
+                [
+                    18343,
+                    52090,
+                    60263,
+                    72041,
+                    161097
+                ],
+                [
+                    23365,
+                    55936.5,
+                    62811.5,
+                    71699.0,
+                    129103
+                ],
+                [
+                    10289,
+                    31503.0,
+                    36593,
+                    44856.5,
+                    152968
+                ],
+                [
+                    14040,
+                    36526.25,
+                    40774.0,
+                    46277.75,
+                    144390
+                ],
+                [
+                    23643,
+                    66551.75,
+                    75771.5,
+                    88691.0,
+                    167090
+                ],
+                [
+                    21459,
+                    57634.5,
+                    64042.5,
+                    71821.5,
+                    121317
+                ],
+                [
+                    24056,
+                    64308.75,
+                    72654.0,
+                    83364.75,
+                    199639
+                ]
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "markPoint": {
+                "label": {
+                    "show": true,
+                    "position": "inside",
+                    "color": "#fff",
+                    "margin": 8
+                }
+            },
+            "markLine": {
+                "silent": false,
+                "precision": 2,
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8
+                }
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {
+                "": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "\u5b9d\u5c71",
+                "\u5d07\u660e",
+                "\u5949\u8d24",
+                "\u8679\u53e3",
+                "\u9ec4\u6d66",
+                "\u5609\u5b9a",
+                "\u91d1\u5c71",
+                "\u9759\u5b89+\u95f8\u5317",
+                "\u95f5\u884c",
+                "\u6d66\u4e1c",
+                "\u666e\u9640",
+                "\u9752\u6d66",
+                "\u677e\u6c5f",
+                "\u5f90\u6c47",
+                "\u6768\u6d66",
+                "\u957f\u5b81"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u4e0a\u6d77\u5404\u533a-\u7bb1\u7ebf\u56fe",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_94f7ab4280d04a4c940579a3bb782563.setOption(option_94f7ab4280d04a4c940579a3bb782563);
+    </script>
+<br/>                        <div id="afb255c9eaa64fe1870a5a236a330869" class="chart-container" style="position: absolute; width: 485.020834px; height: 400.020834px; top: 50.2734375px; left: -87.99478912353516px;">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > </p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <img src="1.png" />
+        </div>
+
+<br/>                        <div id="04b2981206bf44638a8ab360a032bee7" class="chart-container" style="position: absolute; width: 556.020834px; height: 321.020834px; top: 440.1041564941406px; left: 1004.9869384765625px;">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > </p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <img src="2.png" />
+        </div>
+
+<br/>                        <div id="392515e5e24342fa8a9b26903ec31617" class="chart-container" style="position: absolute; width: 531.020834px; height: 440.020834px; top: 452.9296875px; left: -2.0052082538604736px;">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > </p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <img src="3.png" />
+        </div>
+
+<br/>    </div>
+    <script>
+            $('#c9de74e571c9427884f53115cf67fb8a').css('border-style', 'dashed').css('border-width', '0px');$("#c9de74e571c9427884f53115cf67fb8a>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#c9de74e571c9427884f53115cf67fb8a'), function() { chart_c9de74e571c9427884f53115cf67fb8a.resize()});
+            $('#7764d8bd830c4a3aba170ce36e26f253').css('border-style', 'dashed').css('border-width', '0px');$("#7764d8bd830c4a3aba170ce36e26f253>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#7764d8bd830c4a3aba170ce36e26f253'), function() { chart_7764d8bd830c4a3aba170ce36e26f253.resize()});
+            $('#1166bf39cb8a4a3ebd385731b068d3aa').css('border-style', 'dashed').css('border-width', '0px');$("#1166bf39cb8a4a3ebd385731b068d3aa>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#1166bf39cb8a4a3ebd385731b068d3aa'), function() { chart_1166bf39cb8a4a3ebd385731b068d3aa.resize()});
+            $('#94f7ab4280d04a4c940579a3bb782563').css('border-style', 'dashed').css('border-width', '0px');$("#94f7ab4280d04a4c940579a3bb782563>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#94f7ab4280d04a4c940579a3bb782563'), function() { chart_94f7ab4280d04a4c940579a3bb782563.resize()});
+            $('#afb255c9eaa64fe1870a5a236a330869').css('border-style', 'dashed').css('border-width', '0px');$("#afb255c9eaa64fe1870a5a236a330869>div:nth-child(1)").width("100%").height("100%");
+            $('#04b2981206bf44638a8ab360a032bee7').css('border-style', 'dashed').css('border-width', '0px');$("#04b2981206bf44638a8ab360a032bee7>div:nth-child(1)").width("100%").height("100%");
+            $('#392515e5e24342fa8a9b26903ec31617').css('border-style', 'dashed').css('border-width', '0px');$("#392515e5e24342fa8a9b26903ec31617>div:nth-child(1)").width("100%").height("100%");
+            var charts_id = ['c9de74e571c9427884f53115cf67fb8a','7764d8bd830c4a3aba170ce36e26f253','1166bf39cb8a4a3ebd385731b068d3aa','94f7ab4280d04a4c940579a3bb782563','afb255c9eaa64fe1870a5a236a330869','04b2981206bf44638a8ab360a032bee7','392515e5e24342fa8a9b26903ec31617'];
+function downloadCfg () {
+    const fileName = 'chart_config.json'
+    let downLink = document.createElement('a')
+    downLink.download = fileName
+
+    let result = []
+    for(let i=0; i<charts_id.length; i++) {
+        chart = $('#'+charts_id[i])
+        result.push({
+            cid: charts_id[i],
+            width: chart.css("width"),
+            height: chart.css("height"),
+            top: chart.offset().top + "px",
+            left: chart.offset().left + "px"
+        })
+    }
+
+    let blob = new Blob([JSON.stringify(result)])
+    downLink.href = URL.createObjectURL(blob)
+    document.body.appendChild(downLink)
+    downLink.click()
+    document.body.removeChild(downLink)
+}
+    </script>
+</body>
+</html>

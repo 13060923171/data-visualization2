@@ -1,0 +1,354 @@
+{
+    "nodes": [
+      {
+        "id": "1",
+        "name": "赵祯",
+        "symbolSize":16.88,
+        "category": "A"
+      },
+      {
+        "id": "2",
+        "name": "晏殊",
+        "symbolSize":4.55,
+        "category": "A"
+      },
+
+      {
+        "id": "3",
+        "name": "杜衍",
+        "symbolSize":4.55,
+        "category": "A"
+      },
+      {
+        "id": "4",
+        "name": "陈执中",
+        "symbolSize": 1.95,
+        "category": "A"
+      },
+      {
+        "id": "5",
+        "name": "范仲淹",
+        "symbolSize":24.03,
+        "category": "B"
+      },
+      {
+        "id": "6",
+        "name": "韩琦",
+        "symbolSize":7.14,
+        "category": "B"
+      },
+      {
+        "id": "7",
+        "name": "富弼",
+        "symbolSize":9.09,
+        "category": "B"
+      },
+      {
+        "id": "8",
+        "name": "欧阳修",
+        "symbolSize":5.84,
+        "category": "B"
+      },
+      {
+        "id": "9",
+        "name": "滕宗谅",
+        "symbolSize":1.95,
+        "category": "B"
+      },
+      {
+        "id": "10",
+        "name": "郑戬",
+        "symbolSize":1.30,
+         "category": "B"
+      },
+      {
+        "id": "11",
+        "name": "尹洙",
+        "symbolSize":1.30,
+         "category": "B"
+      },
+      {
+        "id": "12",
+        "name": "狄青",
+        "symbolSize":1.30,
+         "category": "B"
+      },
+      {
+        "id": "13",
+        "name": "刘沪",
+        "symbolSize":1.30,
+         "category": "B"
+      },
+      {
+        "id": "14",
+        "name": "石介",
+        "symbolSize":3.90,
+         "category":"B"
+      },
+      {
+        "id": "15",
+        "name": "蔡襄",
+        "symbolSize":1.95,
+         "category": "B"
+      },
+      {
+        "id": "16",
+        "name": "苏舜钦",
+        "symbolSize":2.60,
+         "category": "B"
+      },
+      {
+        "id": "17",
+        "name": "夏竦",
+        "symbolSize":4.55,
+         "category": "C"
+      },
+      {
+        "id": "18",
+        "name": "王拱辰",
+        "symbolSize":5.19,
+         "category": "D"
+      }
+
+    ],
+    "links": [
+     {
+        "source": "1",
+        "target": "2"
+      },
+      {
+        "source": "1",
+        "target": "3"
+      },
+      {
+        "source": "1",
+        "target": "4"
+      },
+      {
+        "source": "1",
+        "target": "5"
+      },
+      {
+        "source": "1",
+        "target": "6"
+      },
+      {
+        "source": "1",
+        "target": "7"
+      },
+      {
+        "source": "1",
+        "target": "8"
+      },
+      {
+        "source": "1",
+        "target": "9"
+      },
+      {
+        "source": "1",
+        "target": "10"
+      },
+      {
+        "source": "1",
+        "target": "11"
+      },
+      {
+        "source": "1",
+        "target": "12"
+      },
+      {
+        "source": "1",
+        "target": "13"
+      },
+      {
+        "source": "1",
+        "target": "14"
+      },
+      {
+        "source": "1",
+        "target": "15"
+      },
+      {
+        "source": "1",
+        "target": "16"
+      },
+      {
+        "source": "1",
+        "target": "17"
+      },
+      {
+        "source": "1",
+        "target": "18"
+      },
+      {
+        "source": "2",
+        "target": "7"
+      },
+      {
+        "source": "3",
+        "target": "5"
+      },
+      {
+        "source": "3",
+        "target": "7"
+      },
+      {
+        "source": "3",
+        "target": "16"
+      },
+      {
+        "source": "5",
+        "target": "6"
+      },
+      {
+        "source": "5",
+        "target": "7"
+      },
+      {
+        "source": "5",
+        "target": "8"
+      },
+      {
+        "source": "5",
+        "target": "9"
+      },
+      {
+        "source": "5",
+        "target": "10"
+      },
+      {
+        "source": "5",
+        "target": "12"
+      },
+      {
+        "source": "5",
+        "target": "14"
+      },
+      {
+        "source": "5",
+        "target": "15"
+      },
+      {
+        "source": "5",
+        "target": "16"
+      },
+      {
+        "source": "5",
+        "target": "17"
+      },
+      {
+        "source": "6",
+        "target": "7"
+      },
+      {
+        "source": "6",
+        "target": "8"
+      },
+      {
+        "source": "6",
+        "target": "11"
+      },
+      {
+        "source": "6",
+        "target": "15"
+      },
+      {
+        "source": "6",
+        "target": "16"
+      },
+      {
+        "source": "6",
+        "target": "17"
+      },
+      {
+        "source": "7",
+        "target": "8"
+      },
+      {
+        "source": "7",
+        "target": "15"
+      },
+      {
+        "source": "7",
+        "target": "16"
+      },
+      {
+        "source": "7",
+        "target": "17"
+      },
+       {
+        "source": "8",
+        "target": "15"
+      },
+      {
+        "source": "8",
+        "target": "16"
+      },
+      {
+        "source": "8",
+        "target": "17"
+      },
+       {
+        "source": "17",
+        "target": "14"
+      },
+      {
+        "source": "17",
+        "target": "16"
+      },
+      {
+        "source": "18",
+        "target": "5"
+      },
+      {
+        "source": "18",
+        "target": "6"
+      },
+      {
+        "source": "18",
+        "target": "7"
+      },
+      {
+        "source": "18",
+        "target": "8"
+      },
+      {
+        "source": "18",
+        "target": "16"
+      },
+      {
+        "source": "10",
+        "target": "11"
+      },
+      {
+        "source": "10",
+        "target": "13"
+      },
+      {
+        "source": "12",
+        "target": "11"
+      },
+      {
+        "source": "12",
+        "target": "13"
+      },
+      {
+        "source": "15",
+        "target": "4"
+      }
+    ],
+  "categories": [
+      {
+        "name": "A"
+      },
+      {
+        "name": "B"
+      },
+      {
+        "name": "C"
+      },
+      {
+        "name": "D"
+      }
+    ]
+  }

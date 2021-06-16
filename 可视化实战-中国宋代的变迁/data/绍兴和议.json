@@ -1,0 +1,215 @@
+{
+    "nodes": [
+      {
+        "id": "1",
+        "name": "赵构",
+        "symbolSize":19.51,
+        "category": "A"
+      },
+      {
+        "id": "2",
+        "name": "张俊",
+        "symbolSize":8.29,
+        "category": "A"
+      },
+
+      {
+        "id": "3",
+        "name": "秦桧",
+        "symbolSize":13.17,
+        "category": "A"
+      },
+      {
+        "id": "4",
+        "name": "岳飞",
+        "symbolSize": 32.68,
+        "category": "B"
+      },
+      {
+        "id": "5",
+        "name": "韩世忠",
+        "symbolSize":7.32,
+        "category": "B"
+      },
+      {
+        "id": "6",
+        "name": "刘锜",
+        "symbolSize":3.90,
+        "category": "B"
+      },
+      {
+        "id": "7",
+        "name": "岳云",
+        "symbolSize":1.95,
+        "category": "B"
+      },
+      {
+        "id": "8",
+        "name": "张宪",
+        "symbolSize":1.95,
+        "category": "B"
+      },
+      {
+        "id": "9",
+        "name": "何铸",
+        "symbolSize":0.98,
+        "category": "B"
+      },
+      {
+        "id": "10",
+        "name": "王德",
+        "symbolSize":1.46,
+         "category": "B"
+      },
+      {
+        "id": "11",
+        "name": "完颜宗弼",
+        "symbolSize":8.78,
+         "category": "C"
+      }
+
+    ],
+    "links": [
+      {
+        "source": "1",
+        "target": "2"
+      },
+      {
+        "source": "1",
+        "target": "3"
+      },
+      {
+        "source": "1",
+        "target": "4"
+      },
+      {
+        "source": "1",
+        "target": "5"
+      },
+      {
+        "source": "1",
+        "target": "6"
+      },
+      {
+        "source": "1",
+        "target": "7"
+      },
+      {
+        "source": "1",
+        "target": "8"
+      },
+      {
+        "source": "1",
+        "target": "9"
+      },
+      {
+        "source": "1",
+        "target": "10"
+      },
+      {
+        "source": "4",
+        "target": "2"
+      },
+      {
+        "source": "5",
+        "target": "2"
+      },
+      {
+        "source": "6",
+        "target": "2"
+      },
+      {
+        "source": "3",
+        "target": "2"
+      },
+      {
+        "source": "2",
+        "target": "11"
+      },
+      {
+        "source": "2",
+        "target": "10"
+      },
+      {
+        "source": "4",
+        "target": "5"
+      },
+      {
+        "source": "4",
+        "target": "6"
+      },
+      {
+        "source": "4",
+        "target": "7"
+      },
+      {
+        "source": "4",
+        "target": "8"
+      },
+      {
+        "source": "3",
+        "target": "4"
+      },
+      {
+        "source": "4",
+        "target": "11"
+      },
+      {
+        "source": "9",
+        "target": "4"
+      },
+      {
+        "source": "4",
+        "target": "10"
+      },
+      {
+        "source": "3",
+        "target": "5"
+      },
+      {
+        "source": "6",
+        "target": "11"
+      },
+      {
+        "source": "10",
+        "target": "11"
+      },
+      {
+        "source": "7",
+        "target": "8"
+      },
+      {
+        "source": "3",
+        "target": "8"
+      },
+      {
+        "source": "8",
+        "target": "11"
+      },
+      {
+        "source": "3",
+        "target": "8"
+      },
+      {
+        "source": "9",
+        "target": "2"
+      },
+      {
+        "source": "10",
+        "target": "11"
+      }
+
+    ],
+  "categories": [
+      {
+        "name": "A"
+      },
+      {
+        "name": "B"
+      },
+      {
+        "name": "C"
+      }
+
+    ]
+  }

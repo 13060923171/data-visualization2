@@ -1,0 +1,287 @@
+{
+    "nodes": [
+      {
+        "id": "1",
+        "name": "忽必烈",
+        "symbolSize":7.59,
+        "category": "A"
+      },
+      {
+        "id": "2",
+        "name": "刘整",
+        "symbolSize":10.13,
+        "category": "A"
+      },
+
+      {
+        "id": "3",
+        "name": "阿术",
+        "symbolSize":5.06,
+        "category": "A"
+      },
+      {
+        "id": "4",
+        "name": "阿里海牙",
+        "symbolSize": 3.80,
+        "category": "A"
+      },
+      {
+        "id": "5",
+        "name": "赵禥",
+        "symbolSize":5.06,
+        "category": "B"
+      },
+      {
+        "id": "6",
+        "name": "吕文德",
+        "symbolSize":7.59,
+        "category": "C"
+      },
+      {
+        "id": "7",
+        "name": "范文虎",
+        "symbolSize":10.13,
+        "category": "C"
+      },
+      {
+        "id": "8",
+        "name": "贾似道",
+        "symbolSize":12.66,
+        "category": "C"
+      },
+      {
+        "id": "9",
+        "name": "吕文焕",
+        "symbolSize":8.86,
+        "category": "D"
+      },
+      {
+        "id": "10",
+        "name": "张世杰",
+        "symbolSize":1.27,
+         "category": "D"
+      },
+      {
+        "id": "11",
+        "name": "李庭芝",
+        "symbolSize":5.06,
+         "category": "D"
+      },
+      {
+        "id": "12",
+        "name": "张顺",
+        "symbolSize":6.33,
+         "category": "D"
+      },
+      {
+        "id": "13",
+        "name": "张贵",
+        "symbolSize":12.66,
+         "category": "D"
+      },
+      {
+        "id": "14",
+        "name": "张弘范",
+        "symbolSize":1.27,
+         "category":"D"
+      },
+      {
+        "id": "15",
+        "name": "夏贵",
+        "symbolSize":2.53,
+         "category": "E"
+      }
+    ],
+    "links": [
+      {
+        "source": "1",
+        "target": "2"
+      },
+      {
+        "source": "1",
+        "target": "3"
+      },
+      {
+        "source": "5",
+        "target": "1"
+      },
+      {
+        "source": "1",
+        "target": "14"
+      },
+      {
+        "source": "1",
+        "target": "4"
+      },
+      {
+        "source": "2",
+        "target": "3"
+      },
+      {
+        "source": "2",
+        "target": "5"
+      },
+      {
+        "source": "2",
+        "target": "6"
+      },
+      {
+        "source": "2",
+        "target": "9"
+      },
+      {
+        "source": "2",
+        "target": "10"
+      },
+      {
+        "source": "2",
+        "target": "15"
+      },
+      {
+        "source": "2",
+        "target": "11"
+      },
+      {
+        "source": "2",
+        "target": "7"
+      },
+      {
+        "source": "2",
+        "target": "12"
+      },
+      {
+        "source": "2",
+        "target": "13"
+      },
+      {
+        "source": "2",
+        "target": "4"
+      },
+      {
+        "source": "9",
+        "target": "3"
+      },
+      {
+        "source": "10",
+        "target": "3"
+      },
+      {
+        "source": "15",
+        "target": "3"
+      },
+      {
+        "source": "11",
+        "target": "3"
+      },
+      {
+        "source": "7",
+        "target": "3"
+      },
+      {
+        "source": "12",
+        "target": "3"
+      },
+      {
+        "source": "13",
+        "target": "3"
+      },
+      {
+        "source": "3",
+        "target": "14"
+      },
+      {
+        "source": "4",
+        "target": "3"
+      },
+      {
+        "source": "3",
+        "target": "11"
+      },
+      {
+        "source": "3",
+        "target": "8"
+      },
+      {
+        "source": "6",
+        "target": "9"
+      },
+      {
+        "source": "6",
+        "target": "7"
+      },
+      {
+        "source": "11",
+        "target": "9"
+      },
+      {
+        "source": "8",
+        "target": "9"
+      },
+      {
+        "source": "12",
+        "target": "9"
+      },
+      {
+        "source": "13",
+        "target": "9"
+      },
+      {
+        "source": "14",
+        "target": "9"
+      },
+      {
+        "source": "4",
+        "target": "9"
+      },
+      {
+        "source": "15",
+        "target": "10"
+      },
+      {
+        "source": "7",
+        "target": "15"
+      },
+      {
+        "source": "7",
+        "target": "11"
+      },
+      {
+        "source": "11",
+        "target": "12"
+      },
+      {
+        "source": "11",
+        "target": "13"
+      },
+      {
+        "source": "7",
+        "target": "8"
+      },
+      {
+        "source": "12",
+        "target": "13"
+      },
+      {
+        "source": "4",
+        "target": "13"
+      }
+
+    ],
+  "categories": [
+      {
+        "name": "A"
+      },
+      {
+        "name": "B"
+      },
+      {
+        "name": "C"
+      },
+      {
+        "name": "D"
+      },
+     {
+        "name": "E"
+      }
+    ]
+  }

@@ -1,0 +1,386 @@
+{
+    "nodes": [
+      {
+        "id": "1",
+        "name": "完颜晟",
+        "symbolSize":2.40,
+        "category": "A"
+      },
+      {
+        "id": "2",
+        "name": "完颜杲",
+        "symbolSize":4.33,
+        "category": "A"
+      },
+
+      {
+        "id": "3",
+        "name": "完颜宗翰",
+        "symbolSize":5.29,
+        "category": "A"
+      },
+      {
+        "id": "4",
+        "name": "完颜宗望",
+        "symbolSize": 6.25,
+        "category": "A"
+      },
+      {
+        "id": "5",
+        "name": "郭药师",
+        "symbolSize":0.48,
+        "category": "A"
+      },
+      {
+        "id": "6",
+        "name": "赵佶",
+        "symbolSize":12.50,
+        "category": "B"
+      },
+      {
+        "id": "7",
+        "name": "赵桓",
+        "symbolSize":28.37,
+        "category": "C"
+      },
+      {
+        "id": "8",
+        "name": "李邦彦",
+        "symbolSize":3.85,
+        "category": "C"
+      },
+      {
+        "id": "9",
+        "name": "张邦昌",
+        "symbolSize":3.85,
+        "category": "C"
+      },
+      {
+        "id": "10",
+        "name": "张孝纯",
+        "symbolSize":1.44,
+         "category": "D"
+      },
+      {
+        "id": "11",
+        "name": "李纲",
+        "symbolSize":12.98,
+         "category": "D"
+      },
+      {
+        "id": "12",
+        "name": "种师道",
+        "symbolSize":8.17,
+         "category": "D"
+      },
+      {
+        "id": "13",
+        "name": "姚平仲",
+        "symbolSize":2.88,
+         "category": "D"
+      },
+      {
+        "id": "14",
+        "name": "陈东",
+        "symbolSize":4.33,
+         "category":"D"
+      },
+      {
+        "id": "15",
+        "name": "折彦质",
+        "symbolSize":0.48,
+         "category": "D"
+      },
+      {
+        "id": "16",
+        "name": "赵构",
+        "symbolSize":2.40,
+         "category": "E"
+      }
+    ],
+    "links": [
+      {
+        "source": "1",
+        "target": "2"
+      },
+      {
+        "source": "1",
+        "target": "3"
+      },
+      {
+        "source": "1",
+        "target": "4"
+      },
+      {
+        "source": "6",
+        "target": "1"
+      },
+      {
+        "source": "2",
+        "target": "3"
+      },
+      {
+        "source": "2",
+        "target": "4"
+      },
+      {
+        "source": "5",
+        "target": "2"
+      },
+      {
+        "source": "2",
+        "target": "6"
+      },
+      {
+        "source": "2",
+        "target": "7"
+      },
+      {
+        "source": "2",
+        "target": "11"
+      },
+      {
+        "source": "2",
+        "target": "16"
+      },
+      {
+        "source": "2",
+        "target": "12"
+      },
+      {
+        "source": "2",
+        "target": "13"
+      },
+      {
+        "source": "3",
+        "target": "4"
+      },
+      {
+        "source": "5",
+        "target": "3"
+      },
+      {
+        "source": "3",
+        "target": "6"
+      },
+      {
+        "source": "3",
+        "target": "10"
+      },
+      {
+        "source": "3",
+        "target": "7"
+      },
+      {
+        "source": "3",
+        "target": "11"
+      },
+      {
+        "source": "3",
+        "target": "16"
+      },
+      {
+        "source": "3",
+        "target": "12"
+      },
+      {
+        "source": "3",
+        "target": "13"
+      },
+      {
+        "source": "3",
+        "target": "15"
+      },
+      {
+        "source": "3",
+        "target": "9"
+      },
+      {
+        "source": "5",
+        "target": "4"
+      },
+      {
+        "source": "5",
+        "target": "4"
+      },
+      {
+        "source": "4",
+        "target": "6"
+      },
+      {
+        "source": "4",
+        "target": "7"
+      },
+      {
+        "source": "4",
+        "target": "10"
+      },
+      {
+        "source": "4",
+        "target": "11"
+      },
+      {
+        "source": "4",
+        "target": "16"
+      },
+      {
+        "source": "4",
+        "target": "12"
+      },
+      {
+        "source": "4",
+        "target": "13"
+      },
+      {
+        "source": "4",
+        "target": "15"
+      },
+      {
+        "source": "4",
+        "target": "9"
+      },
+      {
+        "source": "6",
+        "target": "5"
+      },
+      {
+        "source": "6",
+        "target": "10"
+      },
+      {
+        "source": "6",
+        "target": "7"
+      },
+      {
+        "source": "6",
+        "target": "11"
+      },
+      {
+        "source": "6",
+        "target": "8"
+      },
+      {
+        "source": "6",
+        "target": "16"
+      },
+      {
+        "source": "6",
+        "target": "9"
+      },
+      {
+        "source": "7",
+        "target": "10"
+      },
+      {
+        "source": "7",
+        "target": "11"
+      },
+      {
+        "source": "7",
+        "target": "8"
+      },
+      {
+        "source": "7",
+        "target": "16"
+      },
+      {
+        "source": "7",
+        "target": "12"
+      },
+      {
+        "source": "7",
+        "target": "13"
+      },
+      {
+        "source": "7",
+        "target": "15"
+      },
+      {
+        "source": "7",
+        "target": "9"
+      },
+      {
+        "source": "11",
+        "target": "8"
+      },
+      {
+        "source": "12",
+        "target": "11"
+      },
+      {
+        "source": "12",
+        "target": "11"
+      },
+      {
+        "source": "13",
+        "target": "11"
+      },
+      {
+        "source": "14",
+        "target": "11"
+      },
+      {
+        "source": "15",
+        "target": "11"
+      },
+      {
+        "source": "8",
+        "target": "12"
+      },
+      {
+        "source": "8",
+        "target": "13"
+      },
+      {
+        "source": "8",
+        "target": "14"
+      },
+      {
+        "source": "12",
+        "target": "16"
+      },
+      {
+        "source": "13",
+        "target": "16"
+      },
+      {
+        "source": "9",
+        "target": "16"
+      },
+      {
+        "source": "13",
+        "target": "12"
+      },
+      {
+        "source": "14",
+        "target": "12"
+      },
+      {
+        "source": "15",
+        "target": "12"
+      },
+      {
+        "source": "15",
+        "target": "13"
+      }
+    ],
+  "categories": [
+      {
+        "name": "A"
+      },
+      {
+        "name": "B"
+      },
+      {
+        "name": "C"
+      },
+      {
+        "name": "D"
+      },
+
+      {
+        "name": "E"
+      }
+
+    ]
+  }

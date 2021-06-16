@@ -1,0 +1,237 @@
+{
+    "nodes": [
+      {
+        "id": "1",
+        "name": "赵构",
+        "symbolSize":8.51,
+        "category": "A"
+      },
+      {
+        "id": "2",
+        "name": "秦桧",
+        "symbolSize":2.13,
+        "category": "A"
+      },
+
+      {
+        "id": "3",
+        "name": "汤思退",
+        "symbolSize":9.22,
+        "category": "A"
+      },
+      {
+        "id": "4",
+        "name": "赵眘",
+        "symbolSize": 27.66,
+        "category": "B"
+      },
+      {
+        "id": "5",
+        "name": "岳飞",
+        "symbolSize":0.71,
+        "category": "B"
+      },
+      {
+        "id": "6",
+        "name": "张浚",
+        "symbolSize":19.15,
+        "category": "B"
+      },
+      {
+        "id": "7",
+        "name": "陈康伯",
+        "symbolSize":2.84,
+        "category": "B"
+      },
+      {
+        "id": "8",
+        "name": "吴璘",
+        "symbolSize":2.13,
+        "category": "B"
+      },
+      {
+        "id": "9",
+        "name": "李显忠",
+        "symbolSize":9.93,
+        "category": "B"
+      },
+      {
+        "id": "10",
+        "name": "邵宏渊",
+        "symbolSize":5.67,
+         "category": "B"
+      },
+      {
+        "id": "11",
+        "name": "史浩",
+        "symbolSize":5.67,
+         "category": "C"
+      },
+      {
+        "id": "12",
+        "name": "完颜雍",
+        "symbolSize":1.42,
+         "category": "D"
+      },
+      {
+        "id": "13",
+        "name": "仆散忠义",
+        "symbolSize":3.55,
+         "category": "D"
+      },
+      {
+        "id": "14",
+        "name": "纥石烈志宁",
+        "symbolSize":1.42,
+         "category":"D"
+      }
+    ],
+    "links": [
+      {
+        "source": "1",
+        "target": "4"
+      },
+      {
+        "source": "1",
+        "target": "5"
+      },
+      {
+        "source": "1",
+        "target": "2"
+      },
+      {
+        "source": "1",
+        "target": "6"
+      },
+      {
+        "source": "4",
+        "target": "5"
+      },
+      {
+        "source": "4",
+        "target": "2"
+      },
+      {
+        "source": "4",
+        "target": "6"
+      },
+      {
+        "source": "4",
+        "target": "11"
+      },
+      {
+        "source": "4",
+        "target": "7"
+      },
+      {
+        "source": "4",
+        "target": "8"
+      },
+      {
+        "source": "4",
+        "target": "9"
+      },
+      {
+        "source": "4",
+        "target": "10"
+      },
+      {
+        "source": "4",
+        "target": "3"
+      },
+      {
+        "source": "4",
+        "target": "12"
+      },
+      {
+        "source": "2",
+        "target": "5"
+      },
+      {
+        "source": "6",
+        "target": "2"
+      },
+      {
+        "source": "9",
+        "target": "2"
+      },
+      {
+        "source": "11",
+        "target": "6"
+      },
+      {
+        "source": "7",
+        "target": "6"
+      },
+      {
+        "source": "9",
+        "target": "6"
+      },
+       {
+        "source": "10",
+        "target": "6"
+      },
+      {
+        "source": "3",
+        "target": "6"
+      },
+      {
+        "source": "6",
+        "target": "14"
+      },
+      {
+        "source": "8",
+        "target": "11"
+      },
+      {
+        "source": "10",
+        "target": "9"
+      },
+      {
+        "source": "9",
+        "target": "13"
+      },
+      {
+        "source": "9",
+        "target": "14"
+      },
+      {
+        "source": "10",
+        "target": "13"
+      },
+      {
+        "source": "10",
+        "target": "14"
+      },
+      {
+        "source": "3",
+        "target": "13"
+      },
+      {
+        "source": "12",
+        "target": "13"
+      },
+      {
+        "source": "12",
+        "target": "14"
+      },
+      {
+        "source": "13",
+        "target": "14"
+      }
+    ],
+  "categories": [
+      {
+        "name": "A"
+      },
+      {
+        "name": "B"
+      },
+      {
+        "name": "C"
+      },
+      {
+        "name": "D"
+      }
+    ]
+  }

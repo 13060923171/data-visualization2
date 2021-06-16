@@ -1,0 +1,411 @@
+{
+    "nodes": [
+      {
+        "id": "1",
+        "name": "郭威",
+        "symbolSize":6.35,
+        "category": "A"
+      },
+      {
+        "id": "2",
+        "name": "柴荣",
+        "symbolSize":10.32,
+        "category": "A"
+      },
+
+      {
+        "id": "3",
+        "name": "柴宗训",
+        "symbolSize":0.79,
+        "category": "A"
+      },
+      {
+        "id": "4",
+        "name": "张永德",
+        "symbolSize": 4.76,
+        "category": "A"
+      },
+      {
+        "id": "5",
+        "name": "韩通",
+        "symbolSize":6.35,
+        "category": "A"
+      },
+      {
+        "id": "6",
+        "name": "范质",
+        "symbolSize":1.59,
+        "category": "A"
+      },
+      {
+        "id": "7",
+        "name": "赵匡胤",
+        "symbolSize": 31.75,
+        "category": "B"
+      },
+      {
+        "id": "8",
+        "name": "赵光义",
+        "symbolSize": 5.56,
+        "category": "B"
+      },
+      {
+        "id": "9",
+        "name": "赵普",
+        "symbolSize":3.17,
+        "category": "B"
+      },
+      {
+        "id": "10",
+        "name": "石守信",
+        "symbolSize":3.97,
+         "category": "B"
+      },
+      {
+        "id": "11",
+        "name": "王审琦",
+        "symbolSize":2.38,
+         "category": "B"
+      },
+      {
+        "id": "12",
+        "name": "高怀德",
+        "symbolSize":3.17,
+         "category": "B"
+      },
+      {
+        "id": "13",
+        "name": "张令铎",
+        "symbolSize":0.79,
+         "category": "B"
+      },
+      {
+        "id": "14",
+        "name": "李处耘",
+        "symbolSize":1.59,
+         "category":"B"
+      },
+      {
+        "id": "15",
+        "name": "王彦昇",
+        "symbolSize":0.79,
+         "category": "B"
+      },
+      {
+        "id": "16",
+        "name": "李重进",
+        "symbolSize":11.11,
+         "category": "C"
+      },
+      {
+        "id": "17",
+        "name": "李筠",
+        "symbolSize":3.97,
+         "category": "D"
+      }
+    ],
+    "links": [
+      {
+        "source": "1",
+        "target": "2"
+      },
+      {
+        "source": "1",
+        "target": "3"
+      },
+      {
+        "source": "1",
+        "target": "4"
+      },
+      {
+        "source": "1",
+        "target": "5"
+      },
+      {
+        "source": "1",
+        "target": "6"
+      },
+      {
+        "source": "1",
+        "target": "7"
+      },
+      {
+        "source": "1",
+        "target": "8"
+      },
+      {
+        "source": "1",
+        "target": "9"
+      },
+      {
+        "source": "1",
+        "target": "10"
+      },
+      {
+        "source": "1",
+        "target": "11"
+      },
+      {
+        "source": "1",
+        "target": "12"
+      },
+      {
+        "source": "1",
+        "target": "13"
+      },
+      {
+        "source": "1",
+        "target": "14"
+      },
+      {
+        "source": "1",
+        "target": "15"
+      },
+      {
+        "source": "1",
+        "target": "16"
+      },
+      {
+        "source": "1",
+        "target": "17"
+      },
+      {
+        "source": "2",
+        "target": "3"
+      },
+      {
+        "source": "2",
+        "target": "4"
+      },
+      {
+        "source": "2",
+        "target": "5"
+      },
+      {
+        "source": "2",
+        "target": "6"
+      },
+      {
+        "source": "2",
+        "target": "7"
+      },
+      {
+        "source": "2",
+        "target": "9"
+      },
+      {
+        "source": "2",
+        "target": "10"
+      },
+      {
+        "source": "2",
+        "target": "11"
+      },
+      {
+        "source": "2",
+        "target": "12"
+      },
+      {
+        "source": "2",
+        "target": "13"
+      },
+      {
+        "source": "2",
+        "target": "14"
+      },
+      {
+        "source": "2",
+        "target": "15"
+      },
+      {
+        "source": "2",
+        "target": "16"
+      },
+      {
+        "source": "2",
+        "target": "17"
+      },
+      {
+        "source": "3",
+        "target": "4"
+      },
+      {
+        "source": "3",
+        "target": "5"
+      },
+      {
+        "source": "3",
+        "target": "6"
+      },
+      {
+        "source": "3",
+        "target": "7"
+      },
+      {
+        "source": "3",
+        "target": "8"
+      },
+      {
+        "source": "3",
+        "target": "9"
+      },
+      {
+        "source": "3",
+        "target": "10"
+      },
+      {
+        "source": "3",
+        "target": "11"
+      },
+      {
+        "source": "3",
+        "target": "12"
+      },
+      {
+        "source": "3",
+        "target": "13"
+      },
+      {
+        "source": "3",
+        "target": "14"
+      },
+      {
+        "source": "3",
+        "target": "15"
+      },
+      {
+        "source": "3",
+        "target": "16"
+      },
+      {
+        "source": "3",
+        "target": "17"
+      },
+      {
+        "source": "4",
+        "target": "16"
+      },
+      {
+        "source": "7",
+        "target": "4"
+      },
+      {
+        "source": "7",
+        "target": "5"
+      },
+      {
+        "source": "7",
+        "target": "6"
+      },
+      {
+        "source": "7",
+        "target": "8"
+      },
+      {
+        "source": "7",
+        "target": "9"
+      },
+      {
+        "source": "7",
+        "target": "10"
+      },
+      {
+        "source": "7",
+        "target": "11"
+      },
+      {
+        "source": "7",
+        "target": "12"
+      },
+      {
+        "source": "7",
+        "target": "13"
+      },
+      {
+        "source": "7",
+        "target": "14"
+      },
+      {
+        "source": "7",
+        "target": "15"
+      },
+      {
+        "source": "7",
+        "target": "16"
+      },
+      {
+        "source": "7",
+        "target": "17"
+      },
+      {
+        "source": "8",
+        "target": "9"
+      },
+      {
+        "source": "8",
+        "target": "10"
+      },
+      {
+        "source": "8",
+        "target": "11"
+      },
+      {
+        "source": "9",
+        "target": "10"
+      },
+      {
+        "source": "9",
+        "target": "11"
+      },
+      {
+        "source": "9",
+        "target": "6"
+      },
+      {
+        "source": "10",
+        "target": "17"
+      },
+      {
+        "source": "11",
+        "target": "17"
+      },
+      {
+        "source": "15",
+        "target": "5"
+      },
+      {
+        "source": "16",
+        "target": "10"
+      },
+      {
+        "source": "16",
+        "target": "11"
+      },
+      {
+        "source": "16",
+        "target": "14"
+      },
+      {
+        "source": "16",
+        "target": "17"
+      }
+
+    ],
+  "categories": [
+      {
+        "name": "A"
+      },
+      {
+        "name": "B"
+      },
+      {
+        "name": "C"
+      },
+     {
+        "name": "D"
+      },
+     {
+        "name": "E"
+      }
+    ]
+  }

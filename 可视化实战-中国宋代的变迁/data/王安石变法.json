@@ -1,0 +1,421 @@
+{
+    "nodes": [
+      {
+        "id": "1",
+        "name": "赵顼",
+        "symbolSize":24.73,
+        "category": "A"
+      },
+      {
+        "id": "2",
+        "name": "唐介",
+        "symbolSize":1.09,
+        "category": "A"
+      },
+
+      {
+        "id": "3",
+        "name": "赵抃",
+        "symbolSize":1.45,
+        "category": "A"
+      },
+      {
+        "id": "4",
+        "name": "王安石",
+        "symbolSize": 32.36,
+        "category": "B"
+      },
+      {
+        "id": "5",
+        "name": "章惇",
+        "symbolSize":1.45,
+        "category": "B"
+      },
+      {
+        "id": "6",
+        "name": "曾布",
+        "symbolSize":2.55,
+        "category": "B"
+      },
+      {
+        "id": "7",
+        "name": "韩绛",
+        "symbolSize":4.00,
+        "category": "B"
+      },
+      {
+        "id": "8",
+        "name": "吕嘉问",
+        "symbolSize":1.45,
+        "category": "B"
+      },
+      {
+        "id": "9",
+        "name": "吕惠卿",
+        "symbolSize":10.18,
+        "category": "C"
+      },
+      {
+        "id": "10",
+        "name": "吕诲",
+        "symbolSize":1.82,
+         "category": "D"
+      },
+      {
+        "id": "11",
+        "name": "范纯仁",
+        "symbolSize":1.45,
+         "category": "D"
+      },
+      {
+        "id": "12",
+        "name": "富弼",
+        "symbolSize":1.82,
+         "category": "D"
+      },
+      {
+        "id": "13",
+        "name": "文彦博",
+        "symbolSize":1.82,
+         "category": "D"
+      },
+      {
+        "id": "14",
+        "name": "韩琦",
+        "symbolSize":2.55,
+         "category":"D"
+      },
+      {
+        "id": "15",
+        "name": "苏轼",
+        "symbolSize":0.73,
+         "category": "D"
+      },
+      {
+        "id": "16",
+        "name": "司马光",
+        "symbolSize":5.45,
+         "category": "D"
+      },
+      {
+        "id": "17",
+        "name": "吕公著",
+        "symbolSize":0.73,
+         "category": "D"
+      },
+      {
+        "id": "18",
+        "name": "郑侠",
+        "symbolSize":1.82,
+         "category": "D"
+      },
+      {
+        "id": "19",
+        "name": "邓绾",
+        "symbolSize":2.18,
+         "category": "E"
+      },
+      {
+        "id": "20",
+        "name": "蔡京",
+        "symbolSize":0.36,
+         "category": "F"
+      }
+
+    ],
+    "links": [
+      {
+        "source": "1",
+        "target": "2"
+      },
+      {
+        "source": "1",
+        "target": "3"
+      },
+      {
+        "source": "1",
+        "target": "4"
+      },
+      {
+        "source": "1",
+        "target": "5"
+      },
+      {
+        "source": "1",
+        "target": "6"
+      },
+      {
+        "source": "1",
+        "target": "7"
+      },
+      {
+        "source": "1",
+        "target": "8"
+      },
+      {
+        "source": "1",
+        "target": "9"
+      },
+      {
+        "source": "1",
+        "target": "10"
+      },
+      {
+        "source": "1",
+        "target": "11"
+      },
+      {
+        "source": "1",
+        "target": "12"
+      },
+      {
+        "source": "1",
+        "target": "13"
+      },
+      {
+        "source": "1",
+        "target": "14"
+      },
+      {
+        "source": "1",
+        "target": "15"
+      },
+      {
+        "source": "1",
+        "target": "16"
+      },
+      {
+        "source": "1",
+        "target": "17"
+      },
+      {
+        "source": "1",
+        "target": "18"
+      },
+      {
+        "source": "1",
+        "target": "19"
+      },
+      {
+        "source": "1",
+        "target": "20"
+      },
+      {
+        "source": "9",
+        "target": "4"
+      },
+      {
+        "source": "5",
+        "target": "4"
+      },
+      {
+        "source": "6",
+        "target": "4"
+      },
+      {
+        "source": "2",
+        "target": "4"
+      },
+      {
+        "source": "10",
+        "target": "4"
+      },
+      {
+        "source": "11",
+        "target": "4"
+      },
+      {
+        "source": "12",
+        "target": "4"
+      },
+      {
+        "source": "13",
+        "target": "4"
+      },
+      {
+        "source": "14",
+        "target": "4"
+      },
+      {
+        "source": "15",
+        "target": "4"
+      },
+      {
+        "source": "16",
+        "target": "4"
+      },
+      {
+        "source": "17",
+        "target": "4"
+      },
+      {
+        "source": "18",
+        "target": "4"
+      },
+      {
+        "source": "3",
+        "target": "4"
+      },
+      {
+        "source": "7",
+        "target": "4"
+      },
+      {
+        "source": "4",
+        "target": "8"
+      },
+      {
+        "source": "19",
+        "target": "4"
+      },
+      {
+        "source": "19",
+        "target": "4"
+      },
+      {
+        "source": "6",
+        "target": "9"
+      },
+      {
+        "source": "16",
+        "target": "9"
+      },
+      {
+        "source": "17",
+        "target": "9"
+      },
+      {
+        "source": "7",
+        "target": "9"
+      },
+      {
+        "source": "18",
+        "target": "9"
+      },
+      {
+        "source": "19",
+        "target": "9"
+      },
+      {
+        "source": "20",
+        "target": "9"
+      },
+      {
+        "source": "5",
+        "target": "6"
+      },
+      {
+        "source": "5",
+        "target": "16"
+      },
+      {
+        "source": "5",
+        "target": "19"
+      },
+      {
+        "source": "20",
+        "target": "5"
+      },
+      {
+        "source": "14",
+        "target": "6"
+      },
+      {
+        "source": "16",
+        "target": "6"
+      },
+      {
+        "source": "6",
+        "target": "8"
+      },
+      {
+        "source": "6",
+        "target": "20"
+      },
+      {
+        "source": "11",
+        "target": "10"
+      },
+      {
+        "source": "10",
+        "target": "16"
+      },
+      {
+        "source": "17",
+        "target": "10"
+      },
+      {
+        "source": "12",
+        "target": "11"
+      },
+      {
+        "source": "17",
+        "target": "11"
+      },
+      {
+        "source": "13",
+        "target": "12"
+      },
+      {
+        "source": "14",
+        "target": "12"
+      },
+      {
+        "source": "17",
+        "target": "12"
+      },
+      {
+        "source": "19",
+        "target": "12"
+      },
+      {
+        "source": "13",
+        "target": "14"
+      },
+      {
+        "source": "17",
+        "target": "14"
+      },
+      {
+        "source": "17",
+        "target": "14"
+      },
+      {
+        "source": "17",
+        "target": "3"
+      },
+      {
+        "source": "17",
+        "target": "15"
+      },
+      {
+        "source": "17",
+        "target": "16"
+      }
+
+
+
+    ],
+  "categories": [
+      {
+        "name": "A"
+      },
+      {
+        "name": "B"
+      },
+      {
+        "name": "C"
+      },
+      {
+        "name": "D"
+      },
+
+      {
+        "name": "E"
+      },
+      {
+        "name": "F"
+      }
+
+    ]
+  }
