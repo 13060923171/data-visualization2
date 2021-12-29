@@ -20,11 +20,16 @@ for y in y_data:
     y = int(y)
     y_data1.append(y)
 
-plt.figure(figsize=(12, 9))
+plt.figure(figsize=(12, 9),dpi=300)
+font1 = {
+        'style': 'normal',
+        'size': 15,
+    }
 plt.plot(x_data1,y_data1,'o--',color='#b82410')
+plt.tick_params(labelsize=15)
 plt.title('Release time and number of views')
-plt.xlabel('release time')
-plt.ylabel('amount of play')
+plt.xlabel('release time',font1)
+plt.ylabel('amount of play',font1)
 plt.grid()
 plt.savefig('发布时间与播放量.jpg')
 plt.show()
