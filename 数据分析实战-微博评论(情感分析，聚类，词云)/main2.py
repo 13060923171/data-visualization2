@@ -15,6 +15,7 @@ if __name__ == "__main__":
     # 读取预料 一行预料为一个文档
     for line in open('评论信息.txt', 'r',encoding='utf-8').readlines():
         corpus.append(line.strip())
+    print(corpus)
     # 将文本中的词语转换为词频矩阵 矩阵元素a[i][j] 表示j词在i类文本下的词频
     vectorizer = CountVectorizer()
 
@@ -23,6 +24,7 @@ if __name__ == "__main__":
 
     # 第一个fit_transform是计算tf-idf 第二个fit_transform是将文本转为词频矩阵
     tfidf = transformer.fit_transform(vectorizer.fit_transform(corpus))
+    print(tfidf)
     # 获取词袋模型中的所有词语
     word = vectorizer.get_feature_names()
 
@@ -52,9 +54,10 @@ if __name__ == "__main__":
 
     clf = KMeans(n_clusters=2)
     print(clf)
+    print(weight)
     pre = clf.fit_predict(weight)
     print(pre)
-
+    #
     # 中心点
     print(clf.cluster_centers_)
     print(clf.inertia_)

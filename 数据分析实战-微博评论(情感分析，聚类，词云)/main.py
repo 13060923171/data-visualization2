@@ -11,15 +11,15 @@ plt.rcParams['font.sans-serif']=['SimHei']
 # 对原文本分词
 def cut_words():
     # 获取当前文件路径
-    df = pd.read_excel('bilibili主评.xlsx').loc[:,['评论内容']]
+    df = pd.read_excel('新浪微博.xlsx').loc[:,['评论内容']]
     text1 = df.astype('str').values
     content = ''
     for t in text1:
         text = jieba.cut(t[0], cut_all=False)
         for i in text:
-
             content += i
             content += " "
+        content += "\n"
     return content
 
 # 加载stopwords
@@ -34,8 +34,8 @@ def move_stopwwords(content, stopwords):
     content_after = ''
     for word in content:
         if word not in stopwords:
-            if word != '\t'and'\n':
-                content_after += word
+            # if word != '\t'and'\n':
+            content_after += word
 
     # 写入去停止词后生成的新文本
     with open('评论信息.txt', 'w', encoding='UTF-8-SIG') as f:
