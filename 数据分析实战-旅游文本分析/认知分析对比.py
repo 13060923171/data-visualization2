@@ -230,6 +230,32 @@ def stay():
     Image(filename='./词云图/住宿形象-词云图.png')
 
 
+def total():
+    text = df['清洗文本']
+    list_text = []
+    for t in text:
+        t = str(t).split(" ")
+        for i in t:
+            if i not in stop_words:
+                list_text.append(i)
+    #     words = pseg.cut("{}".format(t))
+    #     for word, flag in words:
+    #         if word not in stop_words and len(word) >= 2:
+    #             # 形容词统计
+    #             if 'a' in flag or 'A' in flag:
+    #                 list_text.append(word)
+    #
+
+    stylecloud.gen_stylecloud(text=' '.join(list_text), max_words=100,
+                              collocations=False,
+                              font_path='simhei.ttf',
+                              icon_name='fas fa-anchor',
+                              size=500,
+                              # palette='matplotlib.Inferno_9',
+                              output_name='./词云图/桂林形象-词云图.png')
+    Image(filename='./词云图/桂林形象-词云图.png')
+
+
 if __name__ == '__main__':
     # catering()
     # trip()
@@ -243,6 +269,7 @@ if __name__ == '__main__':
                multiprocessing.Process(target=shopping),
                multiprocessing.Process(target=scenic),
                multiprocessing.Process(target=play),
-               multiprocessing.Process(target=stay)]
+               multiprocessing.Process(target=stay),
+               multiprocessing.Process(target=total)]
     [p.start() for p in process]  # 开启了两个进程
     [p.join() for p in process]  # 等待两个进程依次结束
