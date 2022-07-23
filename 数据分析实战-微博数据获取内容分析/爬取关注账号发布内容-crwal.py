@@ -28,12 +28,10 @@ def main_ur(i):
     ]
     headers = {
         'user-agent': random.choice(user_agent),
-       "cookie": "SUB=_2A25Pe67ODeRhGeNN6lsS-CrJyz-IHXVshzKGrDV6PUJbkdAKLVbikW1NSdnQVFU7UpTLiJJh65KaEIqfJf39SWj5; _T_WM=9457f97ee39f0dd0dbd852abd89e6e8e",
+       "cookie": "SUB=_2A25Pe67ODeRhGeNN6lsS-CrJyz-IHXVshzKGrDV6PUJbkdAKLVbikW1NSdnQVFU7UpTLiJJh65KaEIqfJf39SWj5; _T_WM=9457f97ee39f0dd0dbd852abd89e6e8e; MLOGIN=1; M_WEIBOCN_PARAMS=luicode%3D20000174",
     }
     html = requests.get(i, headers=headers)
-    while True:
-        if html.status_code == 200:
-            break
+    print(html.status_code)
     content = html.text
     soup = etree.HTML(content.encode('utf-8'))
     ctt = soup.xpath('//div[@class="c"]/div')
@@ -54,7 +52,6 @@ def main_ur(i):
                 try:
                     comtent = c.xpath('./span[@class="ctt"]/text()')
                     comment2 = ' '.join(comtent)
-                    print(comment2)
                 except:
                     comment2 = np.NaN
                 try:
@@ -73,16 +70,17 @@ def main_ur(i):
                     pl = p
                 except:
                     pl = np.NaN
+
                 df = pd.DataFrame()
                 df['时间'] = [date]
                 df['内容'] = [comment2]
                 df['点赞'] = [like]
                 df['转发'] = [zf]
                 df['评论'] = [pl]
-                df.to_csv('深圳卫健委.csv', index=None, header=None, mode='a+', encoding='utf-8-sig')
+                df.to_csv('西安晚报.csv', index=None, header=None, mode='a+', encoding='utf-8-sig')
             except:
                 break
-        time.sleep(0.1)
+        time.sleep(1)
     except:
         pass
 
@@ -93,18 +91,17 @@ if __name__ == '__main__':
     df['点赞'] = ['点赞']
     df['转发'] = ['转发']
     df['评论'] = ['评论']
-    df.to_csv('深圳卫健委.csv',index=None,header=None,mode='w',encoding='utf-8-sig')
-    rng = pd.date_range(start='02/13/2022', end='04/01/2022',freq='W')
-    list_time = []
-    for r in rng:
-        r = str(r).split(" ")
-        list_time.append(r[0].replace('-',''))
-    list_time.append('20220401')
+    df.to_csv('西安晚报.csv',index=None,header=None,mode='w',encoding='utf-8-sig')
+    # rng = pd.date_range(start='02/13/2022', end='04/01/2022',freq='W')
+    # list_time = []
+    # for r in rng:
+    #     r = str(r).split(" ")
+    #     list_time.append(r[0].replace('-',''))
+    # list_time.append('20220401')
     str_list = ['疫情通报','清零','疫情防控','密接','新闻发布会']
-    for s in str_list:
+    for s in tqdm(str_list):
         q = quote(s)
-    for l in tqdm(range(len(list_time)-1)):
-        for i in range(1,101,1):
-            url = 'https://weibo.cn/2831150640/profile?keyword={}&hasori=0&haspic=0&starttime={}&endtime={}&advancedfilter=1&page={}'.format(q,list_time[l],list_time[l+1],i)
+        for i in range(1,88,1):
+            url = 'https://weibo.cn/1975995305/profile?keyword={}&hasori=0&haspic=0&starttime=20211212&endtime=20220124&advancedfilter=1&page={}'.format(q,i)
             main_ur(url)
 
